@@ -1,0 +1,42 @@
+* Mon Jun 06 2011 Anas Nashif <anas.nashif@intel.com> - 1.21
+- Split documentation, locale files
+
+* Wed May 04 2011 Anas Nashif <anas.nashif@intel.com> - 1.21
+- Update to 1.21
+- Do not ship man page of exec if we do not ship it
+- Remove emacs el files
+
+* Fri Jul  9 2010 Yan Li <yan.i.li@intel.com> - 1.19
+- Updated to latest upstream release 
+- Ship core library only to reduce footprint (BMC#11589)
+
+* Sat Apr 10 2010 Anas Nashif <anas.nashif@intel.com> - 1.16
+- Fixed rpmlint errors
+
+* Sat Feb 27 2010 Anas Nashif <anas.nashif@intel.com> - 1.16
+- Updated with latest spectacle
+- Include YAML file in source rpm
+
+* Wed Feb 10 2010 Anas Nashif <anas.nashif@intel.com> - 1.16
+- Fixed info file install
+
+* Sun Feb 07 2010 Anas Nashif <anas.nashif@intel.com> - 1.16
+- Fixed %post calls
+
+* Tue Feb 02 2010 Jian-feng Ding <jian-feng.ding@intel.com> 1.16
+- Update to 1.16 and enable spectacle
+
+* Sat Feb 07 2009 Arjan van de Ven <arjan@linux.intel.com> 1.9
+- Update to version 1.9
+
+* Thu Jan 08 2009 Anas Nashif <anas.nashif@intel.com> 0.6.14
+- Make it build with new libtool
+
+* Thu Jan 08 2009 Anas Nashif <anas.nashif@intel.com> 0.6.14
+- Run reconfigure for new libtool
+
+* Fri Dec 26 2008 Arjan van de Ven <arjan@linux.intel.com> 0.6.14
+- Merge patch from Joe Orton to compile with new autoconf
+
+* Sun Nov 30 2008 Peter J Zhu <peter.j.zhu@intel.com>
+- Remove info install warning
