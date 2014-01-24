@@ -14,6 +14,7 @@ License:    LGPLv2.1+
 URL:        http://www.gnu.org/software/libidn/
 Source0:    http://ftp.gnu.org/gnu/libidn/libidn-%{version}.tar.gz
 Source100:  libidn.yaml
+Patch0:     libidn-aarch64.patch
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 BuildRequires:  pkgconfig
@@ -44,6 +45,7 @@ developing programs which use the GNU libidn library.
 
 %prep
 %setup -q -n %{name}-%{version}
+%patch0 -p1
 
 # >> setup
 %docs_package
