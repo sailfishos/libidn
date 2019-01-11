@@ -1,3 +1,6 @@
+* Tue Jan 08 2019 Tomi Leppänen <tomi.leppanen@jolla.com> - 1.23-2
+- [packaging] Rename libidn-docs to libidn-doc. Contributes to JB#38578
+
 * Fri Jan 24 2014 Oleg Girko <oleg.girko@jolla.com> - 1.23
 - Add aarch64 support.
 
